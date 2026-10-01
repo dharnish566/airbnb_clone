@@ -19,8 +19,8 @@ export default function BookingCard() {
   const nights = 5;
 
   return (
-    <aside className="relative self-stretch">
-      <div className="sticky top-[100px]">
+    <aside className="hidden lg:block w-[33.33%] relative">
+      <div className="sticky top-[120px] z-10">
 
         {/* =====================================================
             DISCOUNT CARD

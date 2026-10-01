@@ -76,9 +76,7 @@ function App() {
             </div>
 
             {/* Right Column (Booking Card) */}
-            <div className="hidden lg:block w-[33.33%] relative">
-              <BookingCard />
-            </div>
+            <BookingCard />
           </div>
 
           {/* Page Sections */}
