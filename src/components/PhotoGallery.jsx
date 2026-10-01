@@ -97,108 +97,108 @@ function GridIcon() {
 // Uncomment these later when connecting the real images
 // --------------------------------------------------
 
-const livingRoom1 = "/images/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg";
-const livingRoom1_2 = "/images/a45feaa2-b607-4092-83ac-5fd4b2894959.jpeg";
-const livingRoom1_3 = "/images/f1da1c3d-0d10-481e-9b63-c71f9073f30b.jpeg";
+const livingRoom1 = "/images/rooms/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg";
+const livingRoom1_2 = "/images/rooms/a45feaa2-b607-4092-83ac-5fd4b2894959.jpeg";
+const livingRoom1_3 = "/images/rooms/f1da1c3d-0d10-481e-9b63-c71f9073f30b.jpeg";
 
-const livingRoom2 = "/images/090d8b0b-b539-42c0-84f8-e1fb0cdf9a93.jpeg";
-const livingRoom2_2 = "/images/9be71047-fc52-438a-9270-75cb470f6752.jpeg";
-const livingRoom2_3 = "/images/f6de1663-4e9c-4414-b63b-29a154a92ee1.jpeg";
-const livingRoom2_4 = "/images/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg";
-const livingRoom2_5 = "/images/34529829-a971-44d3-ac2f-90ea3678a34d.jpeg";
-const livingRoom2_6 = "/images/153aa732-4935-48b8-a6fe-b469b6af5efc.jpeg";
-const livingRoom2_7 = "/images/3c6e6809-1bb1-47a6-8e24-aff593e1c28f.jpeg";
+const livingRoom2 = "/images/rooms/090d8b0b-b539-42c0-84f8-e1fb0cdf9a93.jpeg";
+const livingRoom2_2 = "/images/rooms/9be71047-fc52-438a-9270-75cb470f6752.jpeg";
+const livingRoom2_3 = "/images/rooms/f6de1663-4e9c-4414-b63b-29a154a92ee1.jpeg";
+const livingRoom2_4 = "/images/rooms/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg";
+const livingRoom2_5 = "/images/rooms/34529829-a971-44d3-ac2f-90ea3678a34d.jpeg";
+const livingRoom2_6 = "/images/rooms/153aa732-4935-48b8-a6fe-b469b6af5efc.jpeg";
+const livingRoom2_7 = "/images/rooms/3c6e6809-1bb1-47a6-8e24-aff593e1c28f.jpeg";
 
-const kitchen = "/images/56c44812-52c0-4481-90d8-101ec1f34c7a.jpeg";
-const kitchen2 = "/images/ddc853d7-e658-405c-bedc-8f31106c447e.jpeg";
+const kitchen = "/images/rooms/56c44812-52c0-4481-90d8-101ec1f34c7a.jpeg";
+const kitchen2 = "/images/rooms/ddc853d7-e658-405c-bedc-8f31106c447e.jpeg";
 
-const bedroom = "/images/67c61c6f-6260-4809-9510-0360e58a345d.jpeg";
-const bedroom2 = "/images/1c827136-4a85-4fe0-8e69-3fd8ea19bb17.jpeg";
-const bedroom3 = "/images/0622ab42-b851-4d55-9d9f-df3143bc5909.jpeg";
-const bedroom4 = "/images/a74e3c0b-3188-4442-9146-1cd4d6ea45df.jpeg";
-const bedroom5 = "/images/48a8ffbc-fbf7-4f84-bc29-ee400da3f08b.jpeg";
-const bedroom6 = "/images/3cf31697-f3f3-4c60-82c4-029acb119ae4.jpeg";
+const bedroom = "/images/rooms/67c61c6f-6260-4809-9510-0360e58a345d.jpeg";
+const bedroom2 = "/images/rooms/1c827136-4a85-4fe0-8e69-3fd8ea19bb17.jpeg";
+const bedroom3 = "/images/rooms/0622ab42-b851-4d55-9d9f-df3143bc5909.jpeg";
+const bedroom4 = "/images/rooms/a74e3c0b-3188-4442-9146-1cd4d6ea45df.jpeg";
+const bedroom5 = "/images/rooms/48a8ffbc-fbf7-4f84-bc29-ee400da3f08b.jpeg";
+const bedroom6 = "/images/rooms/3cf31697-f3f3-4c60-82c4-029acb119ae4.jpeg";
 
-const bathroom = "/images/97c78f8a-5090-4663-aebc-ba4e13b47092.jpeg";
+const bathroom = "/images/rooms/97c78f8a-5090-4663-aebc-ba4e13b47092.jpeg";
 
-const gym = "/images/9aa8e65f-94ac-4ba0-9a10-9ec91e536d22.jpeg";
-const gym2 = "/images/246bd88d-4dd6-4117-a401-02a36ebfcf16.jpeg";
-const gym3 = "/images/4fede77d-7a71-446f-89e3-263af937f3fa.jpeg";
-const gym4 = "/images/79f59adb-5a5f-4d6c-8109-1f01f4ca0d03.jpeg";
-const gym5 = "/images/f19d8c0a-1d88-42a4-9218-686d4f0db7e4.jpeg";
+const gym = "/images/rooms/9aa8e65f-94ac-4ba0-9a10-9ec91e536d22.jpeg";
+const gym2 = "/images/rooms/246bd88d-4dd6-4117-a401-02a36ebfcf16.jpeg";
+const gym3 = "/images/rooms/4fede77d-7a71-446f-89e3-263af937f3fa.jpeg";
+const gym4 = "/images/rooms/79f59adb-5a5f-4d6c-8109-1f01f4ca0d03.jpeg";
+const gym5 = "/images/rooms/f19d8c0a-1d88-42a4-9218-686d4f0db7e4.jpeg";
 
-const exterior = "/images/23ea6621-6f74-4baa-acea-2fd03e312b41.jpeg";
-const exterior2 = "/images/5adfdf3e-d497-4efc-ab8c-fc559dab311e.jpeg";
-const exterior3 = "/images/608748cd-6ee7-4a71-88a2-ba79d3ddba5a.jpeg";
-const exterior4 = "/images/5b856fde-a393-41bf-b373-c9d02e64221f.jpeg";
-const exterior5 = "/images/c904e1ab-a39d-4ef0-bdea-8c0bd16b9e3d.jpeg";
-const exterior6 = "/images/42befad7-fb29-473d-91db-b03e7a544d1d.jpeg";
+const exterior = "/images/rooms/23ea6621-6f74-4baa-acea-2fd03e312b41.jpeg";
+const exterior2 = "/images/rooms/5adfdf3e-d497-4efc-ab8c-fc559dab311e.jpeg";
+const exterior3 = "/images/rooms/608748cd-6ee7-4a71-88a2-ba79d3ddba5a.jpeg";
+const exterior4 = "/images/rooms/5b856fde-a393-41bf-b373-c9d02e64221f.jpeg";
+const exterior5 = "/images/rooms/c904e1ab-a39d-4ef0-bdea-8c0bd16b9e3d.jpeg";
+const exterior6 = "/images/rooms/42befad7-fb29-473d-91db-b03e7a544d1d.jpeg";
 
-const pool = "/images/fc02f48f-a937-42c5-895d-f9cc3113d6ca.jpeg";
-const pool2 = "/images/929545d3-e241-46c0-8a70-c24531ce7b54.jpeg";
-const pool3 = "/images/8eb65a8b-e795-4870-b141-6f63b1be24ae.jpeg";
+const pool = "/images/rooms/fc02f48f-a937-42c5-895d-f9cc3113d6ca.jpeg";
+const pool2 = "/images/rooms/929545d3-e241-46c0-8a70-c24531ce7b54.jpeg";
+const pool3 = "/images/rooms/8eb65a8b-e795-4870-b141-6f63b1be24ae.jpeg";
 
-const additional = "/images/70325367-cbae-4993-b560-18cd3f6edd53.jpeg";
-const additional2 = "/images/cc7a56bd-242c-498a-9aef-0cffac619e54.jpeg";
-const additional3 = "/images/30ad93b2-293f-494d-b645-626303c6cb93.jpeg";
-const additional4 = "/images/9642a60d-e9de-4e1a-89c2-9ebd230f4a74.jpeg";
-const additional5 = "/images/dc01fd46-b119-48d3-a43b-f6c093e26eca.jpeg";
-const additional6 = "/images/b6599f26-d65c-4df0-baf2-ef18c82a86a3.jpeg";
-const additional7 = "/images/fe37b80e-da8a-4225-b27b-dfbb5d763c01.jpeg";
-const additional8 = "/images/3c90338e-86b4-423f-aae1-279e0ccc3a18.jpeg";
-const additional9 = "/images/862d936c-0f34-4e50-af87-b519e2781d19.jpeg";
-const additional10 = "/images/79addceb-8c2d-419b-80ff-e29af426a94c.jpeg";
+const additional = "/images/rooms/70325367-cbae-4993-b560-18cd3f6edd53.jpeg";
+const additional2 = "/images/rooms/cc7a56bd-242c-498a-9aef-0cffac619e54.jpeg";
+const additional3 = "/images/rooms/30ad93b2-293f-494d-b645-626303c6cb93.jpeg";
+const additional4 = "/images/rooms/9642a60d-e9de-4e1a-89c2-9ebd230f4a74.jpeg";
+const additional5 = "/images/rooms/dc01fd46-b119-48d3-a43b-f6c093e26eca.jpeg";
+const additional6 = "/images/rooms/b6599f26-d65c-4df0-baf2-ef18c82a86a3.jpeg";
+const additional7 = "/images/rooms/fe37b80e-da8a-4225-b27b-dfbb5d763c01.jpeg";
+const additional8 = "/images/rooms/3c90338e-86b4-423f-aae1-279e0ccc3a18.jpeg";
+const additional9 = "/images/rooms/862d936c-0f34-4e50-af87-b519e2781d19.jpeg";
+const additional10 = "/images/rooms/79addceb-8c2d-419b-80ff-e29af426a94c.jpeg";
 
 
 
-// const livingRoom1 = "https://airbnb-clone-umber-two.vercel.app/assets/images/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg";
-// const livingRoom2 = "https://airbnb-clone-umber-two.vercel.app/assets/images/090d8b0b-b539-42c0-84f8-e1fb0cdf9a93.jpeg";
-// import livingRoom2 from "../assets/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg";
-// import livingRoom2_3 from "../assets/images/f6de1663-4e9c-4414-b63b-29a154a92ee1.jpeg";
-// import livingRoom2_4 from "../assets/images/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg";
-// import livingRoom2_5 from "../assets/images/34529829-a971-44d3-ac2f-90ea3678a34d.jpeg";
-// import livingRoom2_6 from "../assets/images/153aa732-4935-48b8-a6fe-b469b6af5efc.jpeg";
-// import livingRoom2_7 from "../assets/images/3c6e6809-1bb1-47a6-8e24-aff593e1c28f.jpeg";
+// const livingRoom1 = "https://airbnb-clone-umber-two.vercel.app/assets/images/rooms/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg";
+// const livingRoom2 = "https://airbnb-clone-umber-two.vercel.app/assets/images/rooms/090d8b0b-b539-42c0-84f8-e1fb0cdf9a93.jpeg";
+// import livingRoom2 from "../assets/rooms/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg";
+// import livingRoom2_3 from "../assets/images/rooms/f6de1663-4e9c-4414-b63b-29a154a92ee1.jpeg";
+// import livingRoom2_4 from "../assets/images/rooms/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg";
+// import livingRoom2_5 from "../assets/images/rooms/34529829-a971-44d3-ac2f-90ea3678a34d.jpeg";
+// import livingRoom2_6 from "../assets/images/rooms/153aa732-4935-48b8-a6fe-b469b6af5efc.jpeg";
+// import livingRoom2_7 from "../assets/images/rooms/3c6e6809-1bb1-47a6-8e24-aff593e1c28f.jpeg";
 
-// import kitchen from "../assets/images/56c44812-52c0-4481-90d8-101ec1f34c7a.jpeg";
-// import kitchen2 from "../assets/images/ddc853d7-e658-405c-bedc-8f31106c447e.jpeg";
+// import kitchen from "../assets/images/rooms/56c44812-52c0-4481-90d8-101ec1f34c7a.jpeg";
+// import kitchen2 from "../assets/images/rooms/ddc853d7-e658-405c-bedc-8f31106c447e.jpeg";
 
-// import bedroom from "../assets/images/67c61c6f-6260-4809-9510-0360e58a345d.jpeg";
-// import bedroom2 from "../assets/images/1c827136-4a85-4fe0-8e69-3fd8ea19bb17.jpeg";
-// import bedroom3 from "../assets/images/0622ab42-b851-4d55-9d9f-df3143bc5909.jpeg";
-// import bedroom4 from "../assets/images/a74e3c0b-3188-4442-9146-1cd4d6ea45df.jpeg";
-// import bedroom5 from "../assets/images/48a8ffbc-fbf7-4f84-bc29-ee400da3f08b.jpeg";
-// import bedroom6 from "../assets/images/3cf31697-f3f3-4c60-82c4-029acb119ae4.jpeg";
+// import bedroom from "../assets/images/rooms/67c61c6f-6260-4809-9510-0360e58a345d.jpeg";
+// import bedroom2 from "../assets/images/rooms/1c827136-4a85-4fe0-8e69-3fd8ea19bb17.jpeg";
+// import bedroom3 from "../assets/images/rooms/0622ab42-b851-4d55-9d9f-df3143bc5909.jpeg";
+// import bedroom4 from "../assets/images/rooms/a74e3c0b-3188-4442-9146-1cd4d6ea45df.jpeg";
+// import bedroom5 from "../assets/images/rooms/48a8ffbc-fbf7-4f84-bc29-ee400da3f08b.jpeg";
+// import bedroom6 from "../assets/images/rooms/3cf31697-f3f3-4c60-82c4-029acb119ae4.jpeg";
 
-// import bathroom from "../assets/images/97c78f8a-5090-4663-aebc-ba4e13b47092.jpeg";
+// import bathroom from "../assets/images/rooms/97c78f8a-5090-4663-aebc-ba4e13b47092.jpeg";
 
-// import gym from "../assets/images/9aa8e65f-94ac-4ba0-9a10-9ec91e536d22.jpeg";
-// import gym2 from "../assets/images/246bd88d-4dd6-4117-a401-02a36ebfcf16.jpeg";
-// import gym3 from "../assets/images/4fede77d-7a71-446f-89e3-263af937f3fa.jpeg";
-// import gym4 from "../assets/images/79f59adb-5a5f-4d6c-8109-1f01f4ca0d03.jpeg";
-// import gym5 from "../assets/images/f19d8c0a-1d88-42a4-9218-686d4f0db7e4.jpeg";
+// import gym from "../assets/images/rooms/9aa8e65f-94ac-4ba0-9a10-9ec91e536d22.jpeg";
+// import gym2 from "../assets/images/rooms/246bd88d-4dd6-4117-a401-02a36ebfcf16.jpeg";
+// import gym3 from "../assets/images/rooms/4fede77d-7a71-446f-89e3-263af937f3fa.jpeg";
+// import gym4 from "../assets/images/rooms/79f59adb-5a5f-4d6c-8109-1f01f4ca0d03.jpeg";
+// import gym5 from "../assets/images/rooms/f19d8c0a-1d88-42a4-9218-686d4f0db7e4.jpeg";
 
-// import exterior from "../assets/images/23ea6621-6f74-4baa-acea-2fd03e312b41.jpeg";
-// import exterior2 from "../assets/images/5adfdf3e-d497-4efc-ab8c-fc559dab311e.jpeg";
-// import exterior3 from "../assets/images/608748cd-6ee7-4a71-88a2-ba79d3ddba5a.jpeg";
-// import exterior4 from "../assets/images/5b856fde-a393-41bf-b373-c9d02e64221f.jpeg";
-// import exterior5 from "../assets/images/c904e1ab-a39d-4ef0-bdea-8c0bd16b9e3d.jpeg";
-// import exterior6 from "../assets/images/42befad7-fb29-473d-91db-b03e7a544d1d.jpeg";
+// import exterior from "../assets/images/rooms/23ea6621-6f74-4baa-acea-2fd03e312b41.jpeg";
+// import exterior2 from "../assets/images/rooms/5adfdf3e-d497-4efc-ab8c-fc559dab311e.jpeg";
+// import exterior3 from "../assets/images/rooms/608748cd-6ee7-4a71-88a2-ba79d3ddba5a.jpeg";
+// import exterior4 from "../assets/images/rooms/5b856fde-a393-41bf-b373-c9d02e64221f.jpeg";
+// import exterior5 from "../assets/images/rooms/c904e1ab-a39d-4ef0-bdea-8c0bd16b9e3d.jpeg";
+// import exterior6 from "../assets/images/rooms/42befad7-fb29-473d-91db-b03e7a544d1d.jpeg";
 
-// import pool from "../assets/images/fc02f48f-a937-42c5-895d-f9cc3113d6ca.jpeg";
-// import pool2 from "../assets/images/929545d3-e241-46c0-8a70-c24531ce7b54.jpeg";
-// import pool3 from "../assets/images/8eb65a8b-e795-4870-b141-6f63b1be24ae.jpeg";
+// import pool from "../assets/images/rooms/fc02f48f-a937-42c5-895d-f9cc3113d6ca.jpeg";
+// import pool2 from "../assets/images/rooms/929545d3-e241-46c0-8a70-c24531ce7b54.jpeg";
+// import pool3 from "../assets/images/rooms/8eb65a8b-e795-4870-b141-6f63b1be24ae.jpeg";
 
-// import additional from "../assets/images/70325367-cbae-4993-b560-18cd3f6edd53.jpeg";
-// import additional2 from "../assets/images/cc7a56bd-242c-498a-9aef-0cffac619e54.jpeg";
-// import additional3 from "../assets/images/30ad93b2-293f-494d-b645-626303c6cb93.jpeg";
-// import additional4 from "../assets/images/9642a60d-e9de-4e1a-89c2-9ebd230f4a74.jpeg";
-// import additional5 from "../assets/images/b6599f26-d65c-4df0-baf2-ef18c82a86a3.jpeg";
-// import additional6 from "../assets/images/dc01fd46-b119-48d3-a43b-f6c093e26eca.jpeg";
-// import additional7 from "../assets/images/fe37b80e-da8a-4225-b27b-dfbb5d763c01.jpeg";
-// import additional8 from "../assets/images/3c90338e-86b4-423f-aae1-279e0ccc3a18.jpeg";
-// import additional9 from "../assets/images/862d936c-0f34-4e50-af87-b519e2781d19.jpeg";
-// import additional10 from "../assets/images/79addceb-8c2d-419b-80ff-e29af426a94c.jpeg";
+// import additional from "../assets/images/rooms/70325367-cbae-4993-b560-18cd3f6edd53.jpeg";
+// import additional2 from "../assets/images/rooms/cc7a56bd-242c-498a-9aef-0cffac619e54.jpeg";
+// import additional3 from "../assets/images/rooms/30ad93b2-293f-494d-b645-626303c6cb93.jpeg";
+// import additional4 from "../assets/images/rooms/9642a60d-e9de-4e1a-89c2-9ebd230f4a74.jpeg";
+// import additional5 from "../assets/images/rooms/b6599f26-d65c-4df0-baf2-ef18c82a86a3.jpeg";
+// import additional6 from "../assets/images/rooms/dc01fd46-b119-48d3-a43b-f6c093e26eca.jpeg";
+// import additional7 from "../assets/images/rooms/fe37b80e-da8a-4225-b27b-dfbb5d763c01.jpeg";
+// import additional8 from "../assets/images/rooms/3c90338e-86b4-423f-aae1-279e0ccc3a18.jpeg";
+// import additional9 from "../assets/images/rooms/862d936c-0f34-4e50-af87-b519e2781d19.jpeg";
+// import additional10 from "../assets/images/rooms/79addceb-8c2d-419b-80ff-e29af426a94c.jpeg";
 
 // --------------------------------------------------
 // Photo data

@@ -6,7 +6,7 @@ import {
   IconFlag,
 } from './Icons';
 
-import discountIcon from '../assets/discount.svg';
+import discountIcon from '../assets/ui/discount.svg';
 
 import { listing } from '../data/listing';
 

@@ -1,6 +1,6 @@
 import React , {useState} from "react";
-import laurelLeft from "../assets/laurel-left.png";
-import laurelRight from "../assets/laurel-right.png";
+import laurelLeft from "../assets/ui/laurel-left.png";
+import laurelRight from "../assets/ui/laurel-right.png";
 import comfort from "../assets/chips/comfort.png";
 import accuracy from "../assets/chips/accuracy.png";
 import hotTub from "../assets/chips/hot-tub.png";

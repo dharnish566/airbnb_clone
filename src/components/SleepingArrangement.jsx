@@ -1,5 +1,5 @@
-import LivingRoom from '../assets/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg';
-import Bedroom from '../assets/67c61c6f-6260-4809-9510-0360e58a345d.jpeg';
+import LivingRoom from '../assets/rooms/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg';
+import Bedroom from '../assets/rooms/67c61c6f-6260-4809-9510-0360e58a345d.jpeg';
 
 const sleepingOptions = [
   {

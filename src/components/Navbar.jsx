@@ -4,7 +4,7 @@ import {
   IconSearch,
 } from './Icons';
 
-import searchbarHouse from '../assets/searchbar-house.png';
+import searchbarHouse from '../assets/ui/searchbar-house.png';
 
 
 

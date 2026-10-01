@@ -7,27 +7,27 @@
 export const galleryImages = [
   {
     id: 1,
-    src: '/images/23ea6621-6f74-4baa-acea-2fd03e312b41.jpeg',
+    src: '/images/rooms/23ea6621-6f74-4baa-acea-2fd03e312b41.jpeg',
     alt: 'Living area of the Candolim apartment',
   },
   {
     id: 2,
-    src: '/images/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg',
+    src: '/images/rooms/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg',
     alt: 'Balcony and Jacuzzi at the apartment',
   },
   {
     id: 3,
-    src: '/images/67c61c6f-6260-4809-9510-0360e58a345d.jpeg',
+    src: '/images/rooms/67c61c6f-6260-4809-9510-0360e58a345d.jpeg',
     alt: 'Master bedroom',
   },
   {
     id: 4,
-    src: '/images/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg',
+    src: '/images/rooms/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg',
     alt: 'Fully equipped modern kitchen',
   },
   {
     id: 5,
-    src: '/images/70325367-cbae-4993-b560-18cd3f6edd53.jpeg',
+    src: '/images/rooms/70325367-cbae-4993-b560-18cd3f6edd53.jpeg',
     alt: 'Bathroom with premium fixtures',
   },
 ];
@@ -36,72 +36,72 @@ export const galleryImages = [
 export const allImages = [
   {
     id: 1,
-    src: '/images/23ea6621-6f74-4baa-acea-2fd03e312b41.jpeg',
+    src: '/images/rooms/23ea6621-6f74-4baa-acea-2fd03e312b41.jpeg',
     alt: 'Living room with modern decor',
   },
   {
     id: 2,
-    src: '/images/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg',
+    src: '/images/rooms/a9831aeb-f441-44f5-a38f-4cf54e3f0fcf.jpeg',
     alt: 'Private jacuzzi balcony',
   },
   {
     id: 3,
-    src: '/images/67c61c6f-6260-4809-9510-0360e58a345d.jpeg',
+    src: '/images/rooms/67c61c6f-6260-4809-9510-0360e58a345d.jpeg',
     alt: 'Master bedroom',
   },
   {
     id: 4,
-    src: '/images/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg',
+    src: '/images/rooms/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg',
     alt: 'Kitchen',
   },
   {
     id: 5,
-    src: '/images/70325367-cbae-4993-b560-18cd3f6edd53.jpeg',
+    src: '/images/rooms/70325367-cbae-4993-b560-18cd3f6edd53.jpeg',
     alt: 'Bathroom',
   },
   {
     id: 6,
-    src: '/images/090d8b0b-b539-42c0-84f8-e1fb0cdf9a93.jpeg',
+    src: '/images/rooms/090d8b0b-b539-42c0-84f8-e1fb0cdf9a93.jpeg',
     alt: 'Balcony view',
   },
   {
     id: 7,
-    src: '/images/56c44812-52c0-4481-90d8-101ec1f34c7a.jpeg',
+    src: '/images/rooms/56c44812-52c0-4481-90d8-101ec1f34c7a.jpeg',
     alt: 'Dining area',
   },
   {
     id: 8,
-    src: '/images/97c78f8a-5090-4663-aebc-ba4e13b47092.jpeg',
+    src: '/images/rooms/97c78f8a-5090-4663-aebc-ba4e13b47092.jpeg',
     alt: 'Property exterior',
   },
   {
     id: 9,
-    src: '/images/9aa8e65f-94ac-4ba0-9a10-9ec91e536d22.jpeg',
+    src: '/images/rooms/9aa8e65f-94ac-4ba0-9a10-9ec91e536d22.jpeg',
     alt: 'Common area',
   },
   {
     id: 10,
-    src: '/images/9be71047-fc52-438a-9270-75cb470f6752.jpeg',
+    src: '/images/rooms/9be71047-fc52-438a-9270-75cb470f6752.jpeg',
     alt: 'Pool area',
   },
   {
     id: 11,
-    src: '/images/a45feaa2-b607-4092-83ac-5fd4b2894959.jpeg',
+    src: '/images/rooms/a45feaa2-b607-4092-83ac-5fd4b2894959.jpeg',
     alt: 'Evening view',
   },
   {
     id: 12,
-    src: '/images/c904e1ab-a39d-4ef0-bdea-8c0bd16b9e3d.jpeg',
+    src: '/images/rooms/c904e1ab-a39d-4ef0-bdea-8c0bd16b9e3d.jpeg',
     alt: 'Cozy corner',
   },
   {
     id: 13,
-    src: '/images/f1da1c3d-0d10-481e-9b63-c71f9073f30b.jpeg',
+    src: '/images/rooms/f1da1c3d-0d10-481e-9b63-c71f9073f30b.jpeg',
     alt: 'Sunset from the property',
   },
   {
     id: 14,
-    src: '/images/fc02f48f-a937-42c5-895d-f9cc3113d6ca.jpeg',
+    src: '/images/rooms/fc02f48f-a937-42c5-895d-f9cc3113d6ca.jpeg',
     alt: 'Outdoor space',
   },
 ];
@@ -251,7 +251,7 @@ export const priceBreakdown = [
 export const similarListings = [
   {
     id: 1,
-    image: '/images/9be71047-fc52-438a-9270-75cb470f6752.jpeg',
+    image: '/images/rooms/9be71047-fc52-438a-9270-75cb470f6752.jpeg',
     title: 'Luxury Beach Villa with Pool',
     location: 'Baga, Goa',
     rating: 4.87,
@@ -260,7 +260,7 @@ export const similarListings = [
   },
   {
     id: 2,
-    image: '/images/a45feaa2-b607-4092-83ac-5fd4b2894959.jpeg',
+    image: '/images/rooms/a45feaa2-b607-4092-83ac-5fd4b2894959.jpeg',
     title: 'Cozy Studio near Calangute Beach',
     location: 'Calangute, Goa',
     rating: 4.92,

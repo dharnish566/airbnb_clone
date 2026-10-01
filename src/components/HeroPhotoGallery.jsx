@@ -19,11 +19,11 @@ function GridIcon() {
 
 function HeroPhotoGallery({ onOpenPhotoTour }) {
 
-  const image1 = "/images/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg";
-  const image2 = "/images/090d8b0b-b539-42c0-84f8-e1fb0cdf9a93.jpeg";
-  const image3 = "/images/9be71047-fc52-438a-9270-75cb470f6752.jpeg";
-  const image4 = "/images/67c61c6f-6260-4809-9510-0360e58a345d.jpeg";
-  const image5 = "/images/c904e1ab-a39d-4ef0-bdea-8c0bd16b9e3d.jpeg";
+  const image1 = "/images/rooms/2367476f-11c4-4a14-a7c6-267be62c1d59.jpeg";
+  const image2 = "/images/rooms/090d8b0b-b539-42c0-84f8-e1fb0cdf9a93.jpeg";
+  const image3 = "/images/rooms/9be71047-fc52-438a-9270-75cb470f6752.jpeg";
+  const image4 = "/images/rooms/67c61c6f-6260-4809-9510-0360e58a345d.jpeg";
+  const image5 = "/images/rooms/c904e1ab-a39d-4ef0-bdea-8c0bd16b9e3d.jpeg";
   const title = listing?.title || "Romantic Jacuzzi 1BHK Candolim";
 
   return (

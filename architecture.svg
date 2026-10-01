@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1240" viewBox="0 0 1800 1240" role="img" aria-labelledby="title desc">
+  <title id="title">Staybnb production-scale marketplace architecture</title>
+  <desc id="desc">A target cloud architecture for a vacation rental marketplace, from web and mobile clients through edge, APIs, domain services, storage, search, asynchronous events, and deployment operations.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#64748b"/></marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2563eb"/></marker>
+    <style>
+      text{font-family:Inter,Arial,sans-serif;fill:#172033}.title{font-size:30px;font-weight:700}.sub{font-size:14px;fill:#64748b}.section{font-size:15px;font-weight:700;letter-spacing:1px;fill:#475569}.head{font-size:15px;font-weight:700}.body{font-size:12px;fill:#475569}.tiny{font-size:11px;fill:#64748b}.box{stroke-width:1.5;rx:12}.edge{fill:#eff6ff;stroke:#60a5fa}.app{fill:#f5f3ff;stroke:#a78bfa}.service{fill:#ecfdf5;stroke:#34d399}.data{fill:#fff7ed;stroke:#fb923c}.ops{fill:#f8fafc;stroke:#94a3b8}.line{fill:none;stroke:#64748b;stroke-width:2;marker-end:url(#arrow)}.event{fill:none;stroke:#2563eb;stroke-width:2;stroke-dasharray:7 5;marker-end:url(#arrowBlue)}
+    </style>
+  </defs>
+  <rect width="1800" height="1240" fill="#ffffff"/>
+  <text x="48" y="52" class="title">Staybnb | Production-scale marketplace architecture</text>
+  <text x="48" y="79" class="sub">Target architecture · multi-region ready · independently scalable domains · secure, observable delivery</text>
+  <rect x="1435" y="34" width="315" height="42" rx="21" fill="#fff1f2" stroke="#fda4af"/><text x="1458" y="60" class="head" fill="#be123c">TARGET STATE · NOT CURRENT BACKEND</text>
+
+  <!-- consumer and edge -->
+  <text x="48" y="126" class="section">1 · EXPERIENCE & EDGE</text>
+  <rect x="48" y="145" width="220" height="95" class="box app"/><text x="68" y="176" class="head">Web marketplace</text><text x="68" y="199" class="body">React + Vite listing UI (today)</text><text x="68" y="218" class="body">SSR / edge rendering as SEO grows</text>
+  <rect x="48" y="260" width="220" height="78" class="box app"/><text x="68" y="291" class="head">iOS / Android clients</text><text x="68" y="314" class="body">Versioned public API</text>
+  <rect x="340" y="168" width="228" height="116" class="box edge"/><text x="362" y="199" class="head">Global DNS + CDN</text><text x="362" y="222" class="body">Static assets · image variants</text><text x="362" y="241" class="body">WAF · bot / DDoS controls</text><text x="362" y="260" class="body">TLS · geo-aware routing</text>
+  <rect x="640" y="168" width="228" height="116" class="box edge"/><text x="662" y="199" class="head">API edge</text><text x="662" y="222" class="body">Load balancer · API gateway</text><text x="662" y="241" class="body">OAuth/OIDC · rate limits</text><text x="662" y="260" class="body">Request IDs · schema validation</text>
+  <path d="M268 190H340" class="line"/><path d="M268 298H305V250H340" class="line"/><path d="M568 226H640" class="line"/>
+
+  <!-- domain services -->
+  <text x="48" y="384" class="section">2 · SERVICE PLATFORM · stateless containers / autoscaling · private network</text>
+  <rect x="48" y="402" width="1704" height="246" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="78" y="432" width="250" height="78" class="box service"/><text x="98" y="462" class="head">Listing service</text><text x="98" y="486" class="body">Hosts · amenities · media metadata</text>
+  <rect x="354" y="432" width="250" height="78" class="box service"/><text x="374" y="462" class="head">Availability & pricing</text><text x="374" y="486" class="body">Calendar · quotes · policy rules</text>
+  <rect x="630" y="432" width="250" height="78" class="box service"/><text x="650" y="462" class="head">Booking service</text><text x="650" y="486" class="body">Idempotent holds · confirmations</text>
+  <rect x="906" y="432" width="250" height="78" class="box service"/><text x="926" y="462" class="head">Identity & trust</text><text x="926" y="486" class="body">Profiles · authZ · fraud signals</text>
+  <rect x="1182" y="432" width="250" height="78" class="box service"/><text x="1202" y="462" class="head">Payments service</text><text x="1202" y="486" class="body">Provider tokens · ledger · refunds</text>
+  <rect x="1458" y="432" width="250" height="78" class="box service"/><text x="1478" y="462" class="head">Messaging & reviews</text><text x="1478" y="486" class="body">Inbox · notifications · moderation</text>
+  <rect x="252" y="542" width="250" height="72" class="box service"/><text x="272" y="570" class="head">Search API</text><text x="272" y="592" class="body">Geo + facets · ranking · suggestions</text>
+  <rect x="566" y="542" width="250" height="72" class="box service"/><text x="586" y="570" class="head">Booking orchestration</text><text x="586" y="592" class="body">Saga · inventory lock · compensation</text>
+  <rect x="880" y="542" width="250" height="72" class="box service"/><text x="900" y="570" class="head">Async workers</text><text x="900" y="592" class="body">Email · push · indexing · payouts</text>
+  <path d="M754 284V355H203V432" class="line"/><path d="M754 355H479V432" class="line"/><path d="M754 355H755V432" class="line"/><path d="M754 355H1031V432" class="line"/><path d="M754 355H1307V432" class="line"/><path d="M754 355H1583V432" class="line"/>
+  <path d="M479 510V526H377V542" class="line"/><path d="M755 510V542" class="line"/>
+
+  <!-- data plane -->
+  <text x="48" y="690" class="section">3 · DATA PLANE · ownership by domain · encrypted at rest and in transit</text>
+  <rect x="48" y="708" width="1704" height="224" rx="18" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <rect x="78" y="740" width="280" height="78" class="box data"/><text x="98" y="770" class="head">Relational OLTP</text><text x="98" y="793" class="body">PostgreSQL · partitioning · replicas</text>
+  <rect x="390" y="740" width="280" height="78" class="box data"/><text x="410" y="770" class="head">Cache & coordination</text><text x="410" y="793" class="body">Redis · hot reads · short-lived holds</text>
+  <rect x="702" y="740" width="280" height="78" class="box data"/><text x="722" y="770" class="head">Search index</text><text x="722" y="793" class="body">OpenSearch · geo · facets · replicas</text>
+  <rect x="1014" y="740" width="280" height="78" class="box data"/><text x="1034" y="770" class="head">Object storage</text><text x="1034" y="793" class="body">Photos · lifecycle tiers · CDN origin</text>
+  <rect x="1326" y="740" width="360" height="78" class="box data"/><text x="1346" y="770" class="head">Event stream + analytics lake</text><text x="1346" y="793" class="body">Kafka / managed bus · warehouse · CDC</text>
+  <text x="80" y="862" class="body">Strong consistency: booking, inventory, payment ledger  ·  Eventual consistency: search, recommendations, analytics  ·  PITR backups + cross-region recovery</text>
+  <path d="M203 510V680H218V740" class="line"/><path d="M479 510V670H530V740" class="line"/><path d="M377 614V670H842V740" class="line"/><path d="M1583 510V674H1154V740" class="line"/><path d="M1031 510V682H1506V740" class="event"/><path d="M1031 614V740" class="event"/><path d="M1307 510V650H218V740" class="line"/>
+
+  <!-- deploy + observability -->
+  <text x="48" y="974" class="section">4 · DELIVERY, RELIABILITY & SECURITY</text>
+  <rect x="48" y="992" width="530" height="174" rx="15" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="70" y="1024" class="head">CI/CD · GitHub Actions</text><text x="70" y="1050" class="body">PR checks → build → unit/integration/security scans → immutable image</text><text x="70" y="1074" class="body">IaC (Terraform) → staging → canary / blue-green → gradual rollout</text><text x="70" y="1098" class="body">Web: Vite build → object storage + CDN · rollback by release pointer</text><text x="70" y="1132" class="tiny">Secrets manager · least-privilege IAM · signed artifacts · separated environments</text>
+  <rect x="610" y="992" width="530" height="174" rx="15" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="632" y="1024" class="head">Observability & operations</text><text x="632" y="1050" class="body">OpenTelemetry traces · metrics · structured logs · SLO dashboards</text><text x="632" y="1074" class="body">Alert on latency, errors, saturation, booking/payment correctness</text><text x="632" y="1098" class="body">Runbooks · on-call · rate limits · circuit breakers · queue DLQs</text><text x="632" y="1132" class="tiny">Multi-AZ by default · tested restores · regional failover for critical paths</text>
+  <rect x="1172" y="992" width="580" height="174" rx="15" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="1194" y="1024" class="head">Core request flows</text><text x="1194" y="1050" class="body">Browse: CDN → Search API → search index (+ cache)</text><text x="1194" y="1074" class="body">Book: API → availability hold → payment auth → confirm → event</text><text x="1194" y="1098" class="body">Updates: outbox / CDC → stream → search index + notifications</text><text x="1194" y="1132" class="tiny">PCI scope isolated to payment provider/tokenized flows · PII access audited</text>
+  <path d="M168 992V958H890V648" class="event"/><path d="M875 992V955H1070V648" class="event"/>
+  <text x="48" y="1207" class="tiny">Scale strategy: cache and CDN absorb reads; stateless services scale horizontally; partition large domain data; async events decouple fan-out; isolate hot booking paths.</text>
+</svg>
