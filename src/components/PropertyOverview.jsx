@@ -1,6 +1,7 @@
 import React from 'react';
-import { listing, host } from '../data/listing';
+import { listing } from '../data/listing';
 import { IconStar, LaurelLeft, LaurelRight, IconOutdoor, IconSnowflake, IconBuilding } from './Icons';
+import host from '../assets/avatars/host.jpeg';
 
 export default function PropertyOverview() {
   return (
@@ -49,7 +50,7 @@ export default function PropertyOverview() {
       {/* Host */}
       <div className="flex items-center gap-3 pt-6 pb-6">
         <img
-          src={host.avatar}
+          src={host}
           alt={host.name}
           className="h-12 w-12 rounded-full object-cover"
         />

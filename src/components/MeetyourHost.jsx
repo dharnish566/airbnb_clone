@@ -1,4 +1,12 @@
 import React from "react";
+import host from "../assets/avatars/host.jpeg";
+import rev1 from "../assets/avatars/co1.jpg";
+import rev2 from "../assets/avatars/co2.jpg";
+import rev3 from "../assets/avatars/co3.jpg";
+import rev4 from "../assets/avatars/rev5.jpeg";
+import rev5 from "../assets/avatars/rev1.jpeg";
+import rev6 from "../assets/avatars/rev2.jpeg";
+
 
 const VerifiedIcon = () => (
   <svg
@@ -43,27 +51,27 @@ const ShieldIcon = () => (
 const coHosts = [
   {
     name: "Sharath",
-    image: "/assets/images/avatars/co1.jpg",
+    image: rev1,
   },
   {
     name: "Aman Dev Pahwa",
-    image: "/assets/images/avatars/co2.jpg",
+    image: rev2,
   },
   {
     name: "Maria Karen Priyanka",
-    image: "/assets/images/avatars/co3.jpg",
+    image: rev3,
   },
   {
     name: "Simran",
-    image: "/assets/images/avatars/rev5.jpeg",
+    image: rev4,
   },
   {
     name: "Pallavi",
-    image: "/assets/images/avatars/rev1.jpeg",
+    image: rev5,
   },
   {
     name: "Sanyukta",
-    image: "/assets/images/avatars/rev2.jpeg",
+    image: rev6,
   },
   {
     name: "Shruti",
@@ -110,7 +118,7 @@ export default function MeetYourHost() {
               {/* Host Avatar */}
               <div className="relative mx-auto mb-[12px] h-[88px] w-[88px]">
                 <img
-                  src="/assets/images/avatars/host.jpeg"
+                  src={host}
                   alt=""
                   className="h-[88px] w-[88px] rounded-full object-cover"
                 />

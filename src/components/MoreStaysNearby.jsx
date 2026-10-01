@@ -1,50 +1,57 @@
 import React, { useRef, useState } from "react";
 
+import room1 from "/images/rooms/s1.jpeg";
+import room2 from "/images/rooms/s2.jpeg";
+import room3 from "/images/rooms/s3.jpeg";
+import room4 from "/images/rooms/s4.jpeg";
+import room5 from "/images/rooms/s5.jpeg";
+import room6 from "/images/rooms/s6.jpeg";
+
 const stays = [
   {
-    image: "/assets/images/similar/s1.jpeg",
+    image: room1,
     title: "Beautiful Studio with a view to die for",
     price: "₹23,600",
     rating: "4.91",
   },
   {
-    image: "/assets/images/similar/s2.jpeg",
+    image: room2,
     title: "NAQAB - 1bhk with private pool",
     price: "₹42,218",
     rating: "4.95",
   },
   {
-    image: "/assets/images/similar/s3.jpeg",
+    image: room3,
     title: "Greentique Luxury Flat with plunge pool, Calangute",
     price: "₹44,506",
     rating: "4.94",
   },
   {
-    image: "/assets/images/similar/s4.jpeg",
+    image: room4,
     title: "The Tropical Studio | 5 mins to Beach",
     price: "₹22,824",
     rating: "4.96",
   },
   {
-    image: "/assets/images/similar/s5.jpeg",
+    image: room5,
     title: "Luxury Casa Bella 1BHK with plunge pool, Calangute",
     price: "₹39,942",
     rating: "4.95",
   },
   {
-    image: "/assets/images/similar/s6.jpeg",
+    image: room6,
     title: "Kanso by Earthen Window | Jacuzzi | Terrace | Pool",
     price: "₹45,648",
     rating: "5.0",
   },
   {
-    image: "/assets/images/similar/s2.jpeg",
+    image: room2,
     title: "Luxury Apt | Private Pool | 6 Mins from Beach",
     price: "₹48,786",
     rating: "4.93",
   },
   {
-    image: "/assets/images/similar/s4.jpeg",
+    image: room4,
     title: "Serendipity Cottage - Calm Stay in Calangute-Baga.",
     price: "₹22,824",
     rating: "4.92",
